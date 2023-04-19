@@ -3,6 +3,7 @@ from fastapi.staticfiles import StaticFiles
 from starlette.templating import Jinja2Templates
 from sqlalchemy.orm import Session
 
+import services
 import models
 from database import SessionLocal, engine
 
